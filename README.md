@@ -6,8 +6,8 @@ Here is the arXiv link https://arxiv.org/abs/2404.08973.
 
 ![](client.png)
 
-# Supported Algorithms
-Our implementation depends on https://github.com/yzeng58/Improving-Fairness-via-Federated-Learning/tree/main.
+# Acknowledgement
+Our implementation highly depends on https://github.com/yzeng58/Improving-Fairness-via-Federated-Learning/tree/main.
 
 # Installation Dependencies
 Our provide the packages file of our environment (requirement.txt), you can using the following command to download the environment:
