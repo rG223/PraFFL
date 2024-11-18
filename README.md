@@ -4,7 +4,7 @@ This repository contains the implementation for the paper "PraFFL: A Preference-
 
 Here is the arXiv link https://arxiv.org/abs/2404.08973.
 
-![](client.png)
+<img src="client.png" alt="client" width="800"/>
 
 # Acknowledgement
 Our implementation highly depends on https://github.com/yzeng58/Improving-Fairness-via-Federated-Learning/tree/main.
