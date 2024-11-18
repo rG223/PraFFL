@@ -112,7 +112,7 @@ class Server(object):
                                      batch_size=max(int(len(idxs_val)/10),10), shuffle=False)
         return trainloader, validloader
 
-    def FedAvg(self, num_rounds = 10, local_epochs = 30, learning_rate = 0.005, optimizer = "adam"):
+    def EquiFL(self, num_rounds = 10, local_epochs = 30, learning_rate = 0.005, optimizer = "adam"):
         # set seed
         np.random.seed(self.seed)
         random.seed(self.seed)

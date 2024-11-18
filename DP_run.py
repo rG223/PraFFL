@@ -43,8 +43,8 @@ def run_dp(method, model, dataset, prn = True, seed = 123, trial = False, select
         server = Server(arc(num_features=num_features, num_classes=2, seed = seed), info, train_prn = False, seed = seed,
                         Z = Z, ret = True, prn = prn, trial = trial, select_round = select_round)
     # execute
-    if method == 'fedavg':
-        result = server.FedAvg(**kwargs)
+    if method == 'equifl':
+        result = server.EquiFL(**kwargs)
     elif method == 'uflfb':
         result = server.UFLFB(**kwargs)
     elif method == 'fedfb':
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     sys.path.insert(1, os.path.join("/home/yerongguang/Fairness/Praffl"))
     os.environ["PYTHONPATH"] = os.path.join("/home/yerongguang/Fairness/Praffl")
     parser = argparse.ArgumentParser()
-    parser.add_argument('--name', default='fedavg', type=str)
+    parser.add_argument('--name', default='praffl', type=str)
     parser.add_argument('--model', default='multilayer perceptron', type=str)
     parser.add_argument('--dataset', default='synthetic', type=str)
     parser.add_argument('--num_sim', default=5, type=int)
