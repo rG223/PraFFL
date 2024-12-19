@@ -10,7 +10,7 @@ Here is the arXiv link https://arxiv.org/abs/2404.08973.
 Our implementation depends on https://github.com/yzeng58/Improving-Fairness-via-Federated-Learning/tree/main.
 
 # Installation Dependencies
-Our provide the packages file of our environment (requirement.txt), you can using the following command to download the environment:
+We provide the packages file of our environment (requirement.txt), you can using the following command to download the environment:
 
 ```bash
 # Switch Path
